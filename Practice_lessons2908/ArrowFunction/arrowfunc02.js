@@ -8,8 +8,10 @@ Fix that without using an if condition.
 /**
  * @param {number[]} userIds
  */
-function logUserIds() {
-
+function logUserIds(userIds=[]) {
+    userIds.forEach(function(userid){
+console.log(userid);
+});
 }
 
 // Sample usage - do not modify

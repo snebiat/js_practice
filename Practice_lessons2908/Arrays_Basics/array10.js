@@ -10,10 +10,9 @@ from the numbers parameter it receives.
 let sum;
 function sumPositiveNumbers(numbers) {
     sum=0;
-    for (let i =0; i<numbers.length;i++)
-    {
-        if (numbers[i]>0) sum += numbers[i];
-    }
+    numbers.forEach(function(number){
+        if (number>0) sum += number;
+    })
 return(sum);
 }
 

@@ -7,6 +7,11 @@ For each of the exercises below only 11 simple excercises, assume you are starti
 let people = ["Sergei", "Mariia", "Boris", "Abel"];
 
 1. Using a loop, iterate through this array and console.log all of the people (also rewrite it using arrow function).
+*/
+people.forEach(function(person){
+    console.log(person);
+})
+/*
 2. Write the command to remove "Sergei" from the array.
 3. Write the command to remove "Abel" from the array.
 4. Write the command to add "Mahalete" to the front of the array.

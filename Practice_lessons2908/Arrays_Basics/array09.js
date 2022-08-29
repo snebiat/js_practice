@@ -10,10 +10,9 @@ it receives as a parameter.
 let sum;
 function sumGrades(grades) {
     sum=0;
-    for (let i =0; i<grades.length;i++)
-    {
-        sum += grades[i];
-    }
+    grades.forEach(function(grade){
+        sum += grade;
+    })
 return(sum);
 }
 
