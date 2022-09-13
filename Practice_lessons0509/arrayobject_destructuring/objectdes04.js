@@ -5,7 +5,9 @@
  * @param {object} options
  * @param {object} defaultOptions
  */
-const mergeOptions = (options, defaultOptions) => {};
+const mergeOptions = (options, defaultOptions) => {
+  
+};
 
 // Sample usage - do not modify
 const options = {

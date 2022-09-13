@@ -8,7 +8,7 @@ An exam must be canceled if all the students' grades were very high (18 and abov
  * @param {number[]} grades
  */
 const shouldCancelExam = grades => {
-
+    return grades.some(grade => grade >18);
 }
 
 

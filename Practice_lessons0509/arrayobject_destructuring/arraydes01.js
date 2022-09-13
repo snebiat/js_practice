@@ -4,7 +4,7 @@
  */
 const getLocationString = (location) => {
   //destructure into 2 variables: lat & lng
-
+const [lat,lng] = location;
   return `The latitude is ${lat} and the longitude is ${lng}`;
 };
 

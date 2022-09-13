@@ -7,7 +7,9 @@ Complete the function removeSecondApp such that it removes the second element fr
  * @param {array} apps
  */
 const removeSecondApp = apps => {
-
+    apps.splice(1,1);
+    const newarray =  apps;
+    return newarray;
 }
 
 // Sample usage

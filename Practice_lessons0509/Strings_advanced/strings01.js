@@ -7,7 +7,7 @@ The message should always end with a full stop (.).
  * @param {string} message
  */
 const getMessage = message => {
-
+return message + '.';
 }
 
 // Sample usage - do not modify

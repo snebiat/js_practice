@@ -10,7 +10,7 @@ Complete the function multiplyNumbers such that it multiplies every number fro
   * @param {number[]} numbers
   */
  const multiplyNumbers = numbers => {
-
+return numbers.reduce((total,number) => total * number)
  }
 
  // Sample usage - do not modify

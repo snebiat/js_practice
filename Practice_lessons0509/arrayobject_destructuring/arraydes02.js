@@ -3,7 +3,10 @@
 You have to use array destructuring and call the variables firstName and lastName.
  * @param {string[]} user
  */
-const getFullName = (user) => {};
+const getFullName = (user) => {
+    const [firstName,lastName] = user;
+    return `${firstName} ${lastName}`;
+};
 
 // Sample usage - do not modify
 console.log(getFullName(['Sam', 'Blue'])); // "Sam Blue"

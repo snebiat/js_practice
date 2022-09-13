@@ -7,7 +7,8 @@ Complete the function resetApps such that it empties the apps array it receives 
  * @param {array} apps
  */
 const resetApps = apps => {
-
+apps.length=0;
+return apps;
 }
 
 // Sample usage - do not modify
