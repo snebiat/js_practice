@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    font-family: 'Petrona', serif;
+}
+
+#container {
+    display: flex;
+}
+
+#menu {
+    flex: 1.2;
+    border-right: 5px solid #74bce9;
+}
+
+#data {
+    flex: 3;
+    height: 100vh;
+  /*   margin: 0.5rem 0.5rem; */
+}
+
+h1 {
+    background-color: rgb(194, 206, 237);
+    padding: 25px;
+}
+
+h3 {
+    background-color: rgb(170, 169, 169);
+    padding: 5px;
+}
+#line {
+    margin: 0;
+    border-bottom: 5px solid #74bce9;
+}
+/* button {
+    border: none;
+    background-color: brown;
+    padding: 10px;
+    border-radius: 5%;
+    margin-top: 20px;
+    color: white;
+} */
+
+input,select,label {
+  margin: 0.5rem 0.5rem;
+  font-size: 1rem;
+  padding: 0.2rem;
+  width: 20rem;
+}
+
+li {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+}
+
+li:hover {
+    background-color: rgb(194, 206, 237);
+    cursor: pointer;
+}
+
+#todo_list {
+    margin: 0.5rem;
+    border: 1px solid;
+}
+
+th {
+    margin: 0.5rem 0.5rem;
+    padding: 1.5rem;
+    background-color: #74bce9;
+    font-size: 1.2rem;
+}
+
+td {
+    font-size: 1.2rem;
+    padding: 1rem;
+}
+form {
+    margin: 0.5rem;
+    border-radius: 5px;
+    /* border: 5px solid #0570b2; */
+   /*  width: inherit;
+    height: inherit; */
+}
+button {
+    border: none;
+    background-color: #74bce9;
+    padding: 0.5rem;
+    border-radius: 5px;
+    margin: 0.5rem 0.5rem;
+    /* font-family: 'Petrona', serif; */
+    font-size: 1.2rem;
+    width: 10rem;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+#new_task label {
+    display: inline-block;
+    width: 100px;
+}
